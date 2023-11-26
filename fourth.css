@@ -1,0 +1,1096 @@
+  @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:wght@300;400;500;600&family=Poppins:wght@200;300;400;500;600;700;900&family=Titillium+Web:wght@200;300;400&display=swap');
+
+/* font-family: 'Great Vibes', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Titillium Web', sans-serif; */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+}
+.container{
+    width: 75%;
+    margin: auto;
+}
+h1 {
+  font-weight: 400;
+  font-family: "Titillium Web", sans-serif;
+}
+h2 {
+  font-weight: 400;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 60px;
+}
+h3 {
+  font-family: "Titillium Web", sans-serif;
+}
+h4{
+    font-family: 'Open Sans', sans-serif;
+}
+p{
+        font-family: 'Open Sans', sans-serif;
+}
+/*///////////////////////////////// main 1 section /////////////////////*/
+.main {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgb(0 0 0)), url(image/backmain.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.solor{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.solor img{
+    width: 59px;
+    height: 59px;
+}
+.solortxt{
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+.hero {
+    padding: 40px 0px;
+    text-align: center;
+}
+
+button.get {
+    padding: 17px 60px;
+    border-style: none;
+    font-size: 16px;
+    margin: 5% 0;
+    border-radius: 41px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+button.get:hover{
+    background-color: #c4b35d;
+    color: white;
+}
+
+
+
+
+
+.were {
+    font-size: 96px;
+    color: white;
+    width: 60%;
+    margin: 0 auto;
+    line-height: 1.2;
+    margin-bottom: 10%;
+
+}
+.solorchild {
+    padding: 50px 30px ;
+    background-color: #c4b35d;
+    width: 23%;
+}
+
+/* <!-=================- second section. --> */
+
+.conste-ima {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgb(0 0 0 / 74%)), url(image/proj2.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 48%;
+    padding: 30px;
+}
+.conste-black {
+    width: 48%;
+    padding: 30px;
+    background-color: black;
+
+}
+.conste {
+    width: 48%;
+    padding: 30px;
+    background-color: #c4b35d;
+}
+
+.product-bat-second {
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+}
+h3.head {
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+}
+p#enim {
+    font-size: 20px;
+    line-height: 2;
+    margin-top: 20px;
+    color: white;
+}
+button.learn-22 {
+    padding: 18px 72px;
+    font-size: 18px;
+    border-style: none;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    letter-spacing: 3px;
+    font-weight: 400;
+    border-radius: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+button.learn-22:hover {
+    background-color: #ffffff;
+    color: #c4b35d;
+
+}
+.button-style {
+    margin-top: 30px;
+}
+h2.product {
+    text-align: center;
+    margin: 5% 0;
+}
+section.homesolor {
+    margin: 50px 0;
+}
+
+/* //////////////////////sky3\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.sky{
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgb(0 0 0 / 74%)), url(image/sky.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+.sky-txt {
+    text-align: center;
+    padding: 50px 0;
+    color: aliceblue;
+}
+
+
+
+h2.wellco {
+    width: 68%;
+    margin: 0 auto;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+button.vew {
+    padding: 13px 52px;
+    background-color: transparent;
+    border-style: none;
+    border: 2px solid white;
+    border-radius: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    word-spacing: 3px;
+    letter-spacing: 1.5px;
+    color: white;
+    margin-right: 25px;
+}
+button.vew:hover {
+    background-color: #ffffff;
+    color: #c4b35d;
+}
+
+.vew-white{
+    padding: 13px 52px;
+    background-color: white;
+    border-style: none;
+    border: 2px solid white;
+    border-radius: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    word-spacing: 3px;
+    letter-spacing: 1.5px;
+}
+.button-contant {
+    margin-bottom: 51px;
+}
+.vew-white:hover {
+background-color: #c4b35d;
+color: #ffffff;
+border: 2px solid #c4b35d;
+
+}
+
+
+
+/*    <!-- constraction4 --> */
+
+.workers {
+    padding: 90px 0;
+    background-color: #1a1a1a;
+}
+.working-photo-main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    gap: 30px;
+}
+.backimage1 {
+    width: 31%;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgb(0 0 0 / 30%)), url(image/m1.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.backimage2 {
+    width: 31%;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgb(0 0 0 / 30%)), url(image/m2.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.backimage3 {
+    width: 31%;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgb(0 0 0 / 30%)), url(image/m3.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.backimage4 {
+    width: 31%;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgb(0 0 0 / 30%)),url(image/m4.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.backimage5 {
+    width: 31%;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgb(0 0 0 / 30%)), url(image/m5.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.backimage6 {
+    width: 31%;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgb(0 0 0 / 30%)), url(image/m6.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+p.enim {
+    margin-top: 16px;
+    color: white;
+}
+
+h3.savingman {
+font-size: 20px;
+    border-top: 3px solid gray;
+    font-weight: 600;
+    color: white;
+    padding-top: 20px;
+}
+.contant-hei {
+    padding: 60px 30px;
+    margin-top: 70%;
+}
+h2.install {
+    text-align: center;
+    /* margin-top: 60px; */
+    color: white;
+}
+p.workingpara {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+
+/*     <!-- deillmachineuser --> */
+
+.linear {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 42%, rgb(26 26 26) 42%);
+    padding: 100px 0px;
+    /* position: relative; */
+}
+.padd {
+    padding: 0 0 145px;
+}
+.drillmenue {
+    padding: 30px;
+    /* background-color: rgb(147, 58, 58); */
+    width: 68%;
+    position: absolute;
+    left: 80%;
+    /* bottom: 131px; */
+    background: white;
+    top: 230px;
+}
+.let {
+    font-size: 36px;
+    font-weight: 400;
+}
+.deill {
+    width: 1011px;
+    height: 607px;
+    object-fit: cover;
+    position: absolute;
+    left: 12%;
+    bottom: 60px;
+}
+.drill-manu {
+    background-color: #c4b35d;
+    width: 682px;
+    height: 530px;
+    position: relative;
+    top: 144px;
+}
+.let{
+font-size: 36px;
+}
+.duis {
+    font-size: 20px;
+    margin-top: 40px;
+    line-height: 2;
+}
+button.lrarn-33 {
+    padding: 17px 50px;
+    margin-top: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    border-style: none;
+    background: #c4b35d;
+    color: white;
+    border-style: none;
+    border-radius: 50px;
+}
+button.lrarn-33:hover {
+    background-color: #988946;
+}
+
+
+
+
+
+
+
+/* <!-- banafit of a solar --> */
+
+section.sollar-typ {
+    padding: 90px 0;
+}
+.solarli {
+    padding: 30px;
+    line-height: 1.5;
+}
+.solar-txt {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.banifitofsolor {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+.solarli {
+    padding: 30px;
+    width: 33%;
+}
+.solarli  ul li a{
+    font-size: 21px;
+    font-family: 'Open Sans', sans-serif;
+    list-style: none;
+    border-bottom: 2px solid #c6c2c2;
+    padding-bottom: 2px;
+    color: #212020;
+}
+
+/* frame/////////////////////// */
+
+#p19 {
+    width: 100%;
+    height: 327px;
+    object-fit: cover;
+}
+.photoframe {
+    position: relative;
+}
+.packimage {
+    width: 316px;
+}
+
+.barbutton {
+    text-align: center;
+    margin-top: 265px;
+    margin-bottom: 50px;
+}
+section.frame {
+    padding: 60px 0;
+}
+button.contact {
+    padding: 20px 61px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+    border-style: none;
+    color: #232322;
+    border: 2px solid #c4b35d;
+}
+button.contact:hover{
+    background-color: #c4b35d;
+    color: #ffffff;
+}
+p.para {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+h2.hour {
+    text-align: center;
+}
+.photoflax {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-gap: 16px;
+    position: absolute;
+    top: 185px;
+}
+.backflax {
+    height: 698px;
+    background-color: #c4b35d;
+    position: relative;
+    margin-top: 183px;
+}
+
+
+
+
+/*     width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+} */
+
+/* tufan////////////////////// */
+
+img#ttufan {
+    width: 100%;
+    /* padding: 30px; */
+}
+.windmil {
+    width: 50%;
+}
+.main-fan {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.fom-fan {
+    width: 50%;
+    padding: 20px;
+}
+input[type="text"] {
+    width: 100%;
+    border-style: none;
+    border-bottom: 2px solid;
+    padding: 15px 12px;
+    font-size: 16px;
+    margin-bottom: 17px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+label {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+input[type="email"] {
+    width: 100%;
+    border-style: none;
+    border-bottom: 2px solid;
+    padding: 15px 12px;
+    font-size: 16px;
+    margin-bottom: 17px;
+    font-family: 'Open Sans', sans-serif;
+}
+.con{
+    text-align: center;
+}
+input[type="checkbox"] {
+    margin-bottom: 20px;
+}
+button.submit {
+    width: 100%;
+    border-style: none;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 17px 61px;
+    border-radius: 50px;
+    font-weight: 700;
+    background-color: #c4b35d;
+    color: aliceblue;
+}
+button.submit:hover {
+    background-color: #333333;
+}
+label.lolo {
+    margin: 0 0 0 8px;
+}
+textarea#massage {
+    width: 100%;
+    border-style: none;
+    border-bottom: 2px solid;
+    padding: 10px 12px;
+    height: 149px;
+    margin-bottom: 17px;
+}
+
+
+/* footersection */
+.site-footer {
+    background-color: #ffffff;
+    text-align: center;
+    margin: 10px 0;
+    padding: 68px 0;
+}
+  
+  #social-wrapper {
+      text-align: center;
+  }
+  
+  /*Social Media Icons*/
+  .social-wrapper {
+      text-align: center;
+  }
+  
+  .social-wrapper ul li {
+      display: inline;
+      margin: 0 5px;
+  }
+  
+  .twitter-icon,
+  .facebook-icon,
+  .instagram-icon,
+  /* .linkedin-icon, */
+  .googleplus-icon,
+  .youtube-icon,
+  .foursquare-icon{
+      margin-top: .625em;
+      width: 40px;
+      height: 40px;
+      opacity: .6;
+      filter: alpha(opacity=60); /* For IE8 and earlier */
+    border-radius: 25px;
+  }
+  
+  .twitter-icon:hover,
+  .facebook-icon:hover,
+  .instagram-icon:hover,
+  .linkedin-icon:hover,
+  .googleplus-icon:hover,
+  .youtube-icon:hover,
+  .foursquare-icon:hover {
+      opacity: 1.0;
+      filter: alpha(opacity=100); /* For IE8 and earlier */
+  }
+  
+  .footer-nav p {
+      text-align: center;
+  }
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ////////////////////////tab\\\\\\\\\\\\\\\\\\\\\ */
+
+@media only screen and (max-width: 1024px) {
+   
+    
+/* main section 1 */
+.main {
+    background-image: linear-gradient(0deg, rgb(0 0 0 / 16%), rgb(0 0 0 / 57%)), url(image/backmain.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.were {
+    font-size: 72px;
+    color: white;
+    width: 76%;
+    margin: 0 auto;
+    line-height: 1.2;
+    margin-bottom: 10%;
+}
+.solorchild {
+    padding: 50px 30px;
+    background-color: #c4b35d;
+    width: 48%;
+    margin: 0 auto;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+.solor {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+button.get {
+    padding: 17px 60px;
+    border-style: none;
+    font-size: 16px;
+    margin: 9% 0;
+    border-radius: 41px;
+    letter-spacing: 2px;
+    font-weight: 500;
+
+}
+button.get :hover{
+    background-color: #c4b35d;
+    color: #ffffff;
+}
+/* <!----------------------------------- second section. --> */
+.conste {
+    width: 100%;
+    padding: 30px;
+    background-color: #c4b35d;
+}
+.conste-ima {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgb(0 0 0 / 74%)), url(image/proj2.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+    padding: 30px;
+}
+.conste-black {
+    width: 100%;
+    padding: 30px;
+    background-color: black;
+}
+/* /////////////////////sky3 */
+
+h2.wellco {
+    width: 100%;
+    margin: 0 auto;
+    line-height: 1.5;
+    margin-bottom: 60px;
+}
+.sky {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgb(0 0 0 / 74%)), url(image/sky.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+}
+
+/* /*    <!-- constraction4 --> */
+
+
+
+.working-photo-main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    gap: 25px;
+}
+.backimage1 {
+    width: 48%;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgb(0 0 0 / 30%)), url(image/m1.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.backimage2 {
+    width: 48%;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgb(0 0 0 / 30%)), url(image/m2.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.backimage3 {
+    width: 48%;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgb(0 0 0 / 30%)), url(image/m3.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.backimage4 {
+    width: 48%;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgb(0 0 0 / 30%)),url(image/m4.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.backimage5 {
+    width: 48%;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgb(0 0 0 / 30%)), url(image/m5.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.backimage6 {
+    width: 48%;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgb(0 0 0 / 30%)), url(image/m6.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+
+
+
+/*     <!-- deillmachineuser --> */
+
+.deill {
+    width: 650px;
+    height: 607px;
+    object-fit: cover;
+    position: absolute;
+    left: 8%;
+    bottom: 69px;
+}
+.deill {
+    width: 650px;
+    height: 607px;
+    object-fit: cover;
+    position: absolute;
+    left: 8%;
+    bottom: 69px;
+}
+.drill-manu {
+    background-color: #c4b35d;
+    width: 682px;
+    height: 600px;
+    position: relative;
+    top: 110px;
+
+}
+.drillmenue {
+    padding: 30px;
+    /* background-color: rgb(147, 58, 58); */
+    width: 61%;
+    position: absolute;
+    left: 24%;
+    /* bottom: 131px; */
+    background: white;
+    top: 230px;
+}
+
+
+/* <!-- banafit of a solar --> */
+
+
+.solarli {
+    padding: 30px;
+    width: 50%;
+}
+/* frame////////////////////////////////////// */
+.barbutton {
+    text-align: center;
+    margin-top: 490px;
+    margin-bottom: 50px;
+}
+.photoflax {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    grid-gap: 16px;
+    position: absolute;
+    top: 220px;
+    margin-left: 37px;
+}
+.packimage {
+    width: 300px;
+}
+.backflax {
+    height: 1226px;
+    background-color: #c4b35d;
+    position: relative;
+    margin-top: 183px;
+}
+/* tofan */
+.windmil {
+    width: 100%;
+}
+
+
+
+.main-fan {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.fom-fan {
+    width: 100%;
+    padding: 20px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+/* /////////////////////////////////mobile \\\\\\\\\\\\\\\\\\\\*/
+@media only screen and (max-width: 767px) {
+    h2 {
+        font-weight: 400;
+        font-family: "Titillium Web", sans-serif;
+        font-size: 36px;
+    }
+    .were {
+        font-size: 36px;
+        color: white;
+        width: 69%;
+        margin: 0 auto;
+        line-height: 1.2;
+        margin-bottom: 20%;
+    }
+    .solorchild {
+        padding: 50px 30px;
+        background-color: #c4b35d;
+        width: 90%;
+        margin: 0 auto;
+    }
+    button.get {
+        padding: 17px 60px;
+        border-style: none;
+        font-size: 14px;
+        margin: 9% 0 4%;
+        border-radius: 41px;
+        letter-spacing: 2px;
+        font-weight: 500;
+    }
+    button.get :hover{
+        background-color: #c4b35d;
+        color: #ffffff;
+    }
+    h2.product {
+        text-align: center;
+        margin: 10% 0;
+        font-size: 40px;
+    }
+
+/*      <!----------------------------------- second section. -->*/
+
+
+
+/* sky3/////////////////////////////////// */
+
+
+h2.wellco {
+    width: 100%;
+    margin: 0 auto;
+    /* line-height: 1.5; */
+    margin-bottom: 60px;
+    line-height: 1.2;
+}
+button.vew {
+    padding: 13px 52px;
+    background-color: transparent;
+    border-style: none;
+    border: 2px solid white;
+    border-radius: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    word-spacing: 3px;
+    letter-spacing: 1.5px;
+    margin-bottom: 40px;
+    color: white;
+    margin-right: 0;
+}
+
+
+/*    <!-- constraction4 --> */
+
+
+
+.backimage1 {
+    width: 100%;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgb(0 0 0 / 30%)), url(image/m1.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.backimage2 {
+    width: 100%;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgb(0 0 0 / 30%)), url(image/m2.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.backimage3 {
+    width: 100%;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgb(0 0 0 / 30%)), url(image/m3.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.backimage4 {
+    width: 100%;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgb(0 0 0 / 30%)),url(image/m4.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.backimage5 {
+    width: 100%;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgb(0 0 0 / 30%)), url(image/m5.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.backimage6 {
+    width: 100%;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgb(0 0 0 / 30%)), url(image/m6.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+/*     <!-- deillmachineuser --> */
+
+.drillmenue {
+    padding: 20px;
+  
+    width: 87%;
+    position: absolute;
+    left: 7%;
+  
+    background: white;
+    top: 230px;
+}
+.drill-manu {
+    background-color: #c4b35d;
+    width: 100%;
+    height: 409px;
+    position: relative;
+    top: 92px;
+}
+.deill {
+    width: 86%;
+    height: 207px;
+    object-fit: cover;
+    position: absolute;
+    left: 8%;
+    bottom: 284px;
+    margin: 0 auto;
+}
+
+
+.let {
+    font-size: 30px;
+    font-weight: 200;
+}
+
+
+
+.linear {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 42%, rgb(26 26 26) 42%);
+    padding: 60px 0px;
+    margin-bottom: 253px;
+}
+
+/* <!-- banafit of a solar --> */
+
+
+.solar-txt {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 21px;
+}
+.solarli {
+    padding: 20px 10px;
+    width: 100%;
+}
+
+
+/* frame////////////////////////////////////// */
+.photoflax {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-gap: 16px;
+    position: absolute;
+    top: 167px;
+    margin-left: 0;
+}
+.barbutton {
+    text-align: center;
+    margin-top: 194px;
+    margin-bottom: 50px;
+}
+.backflax {
+    height: 2895px;
+    background-color: #c4b35d;
+    position: relative;
+    margin-top: 183px;
+    width: 70%;
+}
+
+button.contact {
+    padding: 20px 61px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    letter-spacing: 3px;
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+    border-style: none;
+    color: #232322;
+    border: 2px solid #c4b35d;
+}
+h2.hour {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+}
